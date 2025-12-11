@@ -72,4 +72,13 @@ def meyusculas(frase):
 
 print(meyusculas(frase1))
 
+#Ejercicio(Javier Jaen)
+#Anagrama(Palindormo sin espacios, para una frase)
+
+
+def es_anagrama(palabraA , palabraB):
+    palabraA = palabraA.lower().strip()
+    palabraB = palabraB.lower().strip()
+    return sorted(palabraA) == sorted(palabraB)
+
 
