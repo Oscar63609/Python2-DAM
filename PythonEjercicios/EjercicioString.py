@@ -17,7 +17,7 @@ def vocales(frase):
 
     return "Nueva frase : "+ frase +"\nNumero total de vocales contadas:" + str(vocal)
 
-print(vocales("El viento susurra secretos que nadie escucha, mientras la luna vigila con ojos de plata."))
+print(vocales("El viento susurra secretos que nadie escucha."))
 
 #ejercicio(David Kallimoulline)
 #Encontrar la ruta más corta y eficiente para visitar un conjunto
@@ -51,7 +51,7 @@ def correos(array):
     return nombres, dominio
 
 print(correos(arrayCorreos))
-"""
+
 #Ejercicio (Tobias)
 #Haz un metodo que reemplace cada palabra con la primera letra en mayuscula y cuenta cuantas ‘e’ hay.
 frase1 = "Tres tristes tigres, tragaban trigo en un trigal, en tres tristes trastos, tragaban trigo tres tristes tigres"
@@ -81,4 +81,35 @@ def es_anagrama(palabraA , palabraB):
     palabraB = palabraB.lower().strip()
     return sorted(palabraA) == sorted(palabraB)
 
+cadena="navidad"
+#cadena[2]="o"
+
+lista = [1,"feliz","feliz","navidad",4.6,[33,66]]
+lista[2]="2026"
+
+
+print(lista)
+print(list(range(1,10,2)))
+line="Muchos        espacios"
+
+print(line)
+"""
+
+
+
+
+#De una lista de numeros desordenados hacer que los impares se ordenen primeros en la lista y que los pares los ultimos
+numeros_desordenados = [2,7,8,56,87,90,45,39,27,13,107,43,21]
+
+numorden=sorted(numeros_desordenados, key=lambda num:(num%2==0, num))
+
+print(numorden)
+
+#De una lista de personas ordenarlas por su edad
+
+personas = [("Oscar", 30),("Jorge", 18), ("Sofía", 20)]
+
+
+ordenarEdad=sorted(personas, key=lambda persona: persona[1])
+print(ordenarEdad)
 
