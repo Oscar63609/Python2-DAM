@@ -1,0 +1,7 @@
+Usuario1: acceso permitido
+Usuario2: acceso denegado
+Usuario3: acceso permitido
+Usuario4: acceso denegado
+Usuario5: acceso permitido
+Usuario6: acceso denegado
+Usuario7: acceso denegado

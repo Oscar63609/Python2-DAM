@@ -1,0 +1,18 @@
+# Registro de accesos al sistema
+# Generado automáticamente el 08/02/2026
+
+Usuario1: acceso permitido
+Usuario2: acceso denegado
+
+# Esta línea es un comentario
+Usuario3: acceso permitido
+Usuario4: acceso denegado
+
+
+# Otra configuración
+Usuario5: acceso permitido
+
+Usuario6: acceso denegado
+Usuario7: acceso denegado
+
+# Fin del fichero
